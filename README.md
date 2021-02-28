@@ -23,6 +23,10 @@ This Project only has one master branch, it was a small project so it did not ne
 
 **HTML5** and **CSS3**
 
+## Demo 📦
+_If you want to see how this project was, you can do it from:
+:arrow_right: https://eugenia1984.github.io/Second-exercise-of-Full-Stack-Course---Blog/
+
 
 ## Please: 🎁
 
@@ -62,6 +66,9 @@ Este proyecto solo tiene una rama maestra, era un proyecto pequeño por lo que n
 
 **HTML5** y **CSS3**
 
+## Demo 📦
+_Si querés ver el proyecto:
+:arrow_right: https://eugenia1984.github.io/Second-exercise-of-Full-Stack-Course---Blog/
 
 ## Por favor: 🎁
 
