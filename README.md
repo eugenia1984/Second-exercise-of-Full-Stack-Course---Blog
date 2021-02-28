@@ -58,9 +58,9 @@ Utilice los atributos globales, id y class.
 ## Contenido 🚀
 Este proyecto solo tiene una rama maestra, era un proyecto pequeño por lo que no necesitaba más ramas.
 
-## Pila de tecnologías 🛠️
+# Tecnologías usadas 🛠️
 
-** HTML5 ** y ** CSS3 **
+**HTML5** y **CSS3**
 
 
 ## Por favor: 🎁
