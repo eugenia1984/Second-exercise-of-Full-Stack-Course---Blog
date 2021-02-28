@@ -45,7 +45,7 @@ SPANISH
 
 # Segundo ejercicio del curso Full Stack - Blog
 
-Estoy tomando el curso ** Full Stack ** con ** Programando Desde Tu Casa ** y como segunda práctica debemos crear un sitio de blog.
+Estoy tomando el curso **Full Stack** con **Programando Desde Tu Casa** y como segunda práctica debemos crear un sitio de blog.
 
 ## Lo que hice 🚀
 Debe tener tres páginas:
