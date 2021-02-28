@@ -1,0 +1,59 @@
+.container {
+  height: 90vh;
+}
+
+/****** Tira de imágenes *******/
+
+.tira {
+  display: flex;
+}
+
+.foto-tira {
+  flex: 30%;
+}
+
+.centrar {
+  width: 80%;
+  margin: 6% 4%;
+  border-radius: 1rem;
+}
+
+.centrar2 {
+  margin: 15% 4%;
+}
+
+/********* Media Querie************/
+@media screen and (max-width: 575px) {
+
+
+  .title {
+    height: 20vh;
+  }
+
+  .barra {
+    height: 34vh;
+  }
+
+  .container {
+    height: 100vh;
+    padding: 1.50rem 1.25rem;
+  }
+
+  section{
+    padding-top: 2rem;
+  }
+
+  .sub-subtitle {
+    margin-top: 2rem;
+    font-size: 1.25rem;
+  }
+
+  .centrar {
+    width: 95%;
+    margin: 4% 2%;
+    border-radius: 1rem;
+  }
+  .centrar2 {
+    margin: 12% 2%;
+  }
+}
