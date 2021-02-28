@@ -1,0 +1,164 @@
+/************* Reset css in all the browsers **************/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/********************* Color *********************/
+:root {
+  --primary: #e9f1f2fc;
+  --secondary: #d9adad ;
+  --bg-primary: #8ac1b2;
+  --bg-secondary: #dddddd ;
+  --white: rgb(237, 234, 234);
+}
+
+/***************** Google Font ****************/
+/* font-family: 'Architects Daughter', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+/* font-family: 'Noto Sans JP', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Noto+Sans+JP:wght@400;900&display=swap');
+
+/******** Body ********/
+body {
+  background-color: var(--bg-primary);
+}
+
+/******* Header *******/
+.title {
+  background-color: var(--bg-secondary);
+  font-family: 'Architects Daughter', cursive;
+  text-align: center;
+  padding: 1rem;
+}
+
+.title a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+/******* Nav bar *******/
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  background-color: var(--secondary);
+  display: inline;
+  width: 33.33%;
+  float: left;
+  font-size: 2rem;
+  font-family: 'Architects Daughter', cursive;
+}
+
+ul li a:hover {
+  background-color: var(--bg-primary);
+}
+ul li a {
+  display: block;
+  color: var(--primary);
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+/******* Main ********/
+.container {
+  padding: 4rem 3rem;
+}
+/************** Section ****************/
+section {
+  padding-top: 4rem;
+}
+.recuadro {
+  background-color: var(--white);
+  border-radius: 1.5rem;
+  margin: 2rem;
+  padding: 2rem;
+}
+.subtitle {
+  color: var(--secondary);
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 900;
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.sub-subtitle {
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 2rem;
+  margin: 3rem;
+}
+
+p {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.6;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+img {
+  width: 80%;
+  margin: 4% 10%;
+  border-radius: 1.5rem;
+}
+/********** Footer ********/
+footer {
+  background-color: var(--bg-secondary);
+  padding: 1rem;
+}
+
+/********* Media Querie************/
+@media screen and (max-width: 575px) {
+
+  /****Nav Bar*****/
+.barra {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .barra li {
+    background-color: var(--secondary);
+    display: block;
+    width: 100%;
+    font-size: 2rem;
+    font-family: 'Architects Daughter', cursive;
+  }
+  
+  .barra li a {
+    display: block;
+    color: var(--primary);
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .barra li a:hover {
+    background-color: var(--bg-primary);
+  }
+  
+  
+
+  /***** Section*****/
+  p {
+    font-size: 1.15rem;
+    font-weight: 600;
+    line-height: 2;
+    text-align: left;
+    margin-top: 1.15rem;
+  }
+  .recuadro {
+    border-radius: 1rem;
+    margin: 0.50rem;
+    padding: 1rem;
+  }
+
+  .sub-subtitle {
+    font-size: 1.5rem;
+    margin-top: 10rem;
+  }
+}
