@@ -1,0 +1,44 @@
+iframe {
+  width: 90%;
+  margin:1rem 1.5rem;
+}
+
+
+/********* Media Querie************/
+@media screen and (max-width: 660px) {
+  .title {
+    height: 20vh;
+  }
+
+  .barra {
+    height: 35vh;
+  }
+
+  .container{
+    padding: 3rem 2rem;
+  }
+
+  section{
+    padding-top: 2rem;
+  }
+
+  .sub-subtitle {
+    margin-top: 5rem;
+  }
+
+  img {
+    width: 100%;
+    margin: 2%;
+  }
+
+  iframe {
+    width: 80%;
+    margin: 0.50rem 1.0rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+    font-weight: 400;
+    text-align: center;
+  }
+}
